@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.header{
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.header .logo {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+
+.header ul{
+  display: flex;
+  list-style: none;
+  gap: 8rem;
+  text-transform: uppercase;
+  font-size: 15;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.banner{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  background-size: cover;
+}
+
+.nasa {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding-top: 13rem;
+}
+
+p {
+  font-size: 35px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.space {
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.details {
+  font-size: 20px;
+  width: 500px;
+}
+
+.nasa .learn-more{
+  padding: 15px 30px;
+  margin-top: 10px;
+  font-size: 20px;
+  background: rgba( 255, 255, 255, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 0.5px );
+  -webkit-backdrop-filter: blur( 0.5px );
+  border-radius: 50px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  cursor: pointer;
+}
+
+.earth{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  top: 13rem;
+  align-items: center;
+ }
+
+ .earth-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+ }
+
+ .planet-name{
+  font-weight: 600;
+  letter-spacing: 13px;
+ }
+
+ .description{
+  font-size: 15px;
+  width: 350px;
+ }
+
+ .moon{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  top: 25rem;
+  align-items: center;
+ }
+
+ .moon-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+ }
+
+ .planet-name1{
+  font-weight: 600;
+  letter-spacing: 13px;
+ }
+
+ .description1{
+  font-size: 15px;
+  width: 350px;
+ }
+
+ .sun{
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 100px;
+  top: 37rem;
+  align-items: center;
+ }
+
+ .sun-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+ }
+
+ .planet-name2{
+  font-weight: 600;
+  letter-spacing: 13px;
+ }
+
+ .description2{
+  font-size: 15px;
+  width: 350px;
+ }
